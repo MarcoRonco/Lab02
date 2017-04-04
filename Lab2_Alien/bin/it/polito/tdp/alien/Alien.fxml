@@ -32,7 +32,7 @@
             <HBox alignment="CENTER_LEFT" spacing="10.0">
                <children>
                   <Label text="Alien Text" />
-                  <TextField fx:id="txtWord" onAction="#doPulisci" prefHeight="25.0" prefWidth="169.0" promptText="Insert the text..">
+                  <TextField fx:id="txtWord" prefHeight="25.0" prefWidth="169.0" promptText="Insert the text..">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>

@@ -17,8 +17,16 @@ public class Word {
 		return translation;
 	}
 
+	public void setAlienWord(String alienWord) {
+		this.alienWord = alienWord;
+	}
+	
+	public void setTranslation(String translation) {
+		this.translation = translation;
+	}
+
 	public String compare(String alienWord){
-		if(this.getAlienWord().compareTo(alienWord.toLowerCase())==0){
+		if(this.getAlienWord().compareTo(alienWord)==0){
 		return alienWord;
 		}
 		else
